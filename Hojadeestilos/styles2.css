@@ -1,0 +1,218 @@
+/* Reset de estilos para quitar los márgenes y el padding predeterminados */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div#titulosuperior {
+    width: auto;
+    height: 30px;
+    background-color: mediumpurple; 
+    }
+
+h3{
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: medium;
+   color: aliceblue;
+   top: 150px;
+}
+
+header {
+    font-family: Arial, sans-serif;
+    background-image: url('../img/Fitnessgirl-bannerweb.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para legibilidad */
+    display: flex;
+    flex-direction: column; /* Cambia la dirección de los elementos en la cabecera */
+    justify-content: center; /* Centra los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    padding: 20px 0;
+}
+
+.logo img {
+    max-width: 100px; /* Ajusta el tamaño del logotipo según sea necesario */
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navegacion {
+    width: 1000px;
+    margin: 30px auto;
+    background-color: rgb(248, 138, 193);
+    text-align: center;
+}
+
+.nav ul {
+    list-style: none;
+    display:flex;
+}
+
+.menu li{
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu li a{
+display: block;
+padding: 15px 20px;
+color: black;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: bold;
+align-items: center;
+text-decoration: none;
+}
+
+.menu li a:hover{
+    font-size: 20px;
+    transition: all ease 300ms;
+}
+
+.submenu{
+    position: absolute;
+    background-color: rgb(248, 138, 193);
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu li a{
+    display:block;
+    padding: 15px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    text-align:center;
+    align-items: center;
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+.redes{
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    margin: 10px;
+    
+}
+
+.redes a {
+    font-size: 30px;
+    transition: all ease 300ms;
+    
+}
+
+.instagram{
+    color: rgb(248, 138, 193);
+}
+
+.tiktok{
+    color: rgb(248, 138, 193);
+}
+
+.youtube{
+    color: rgb(248, 138, 193);
+}
+
+.redes a:hover{
+    transform: scale(1.4);
+    
+}
+
+section#infoprincipal {
+    display: block;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    top: 450px;
+}
+
+h2{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.texto {
+    display:block;
+    position:relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:large;
+    text-align: center;
+}
+
+.fotoprincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenprincipal{
+    width: 80%;
+    height: 600px;
+}
+
+.servicios {
+    width: 100%;
+    min-width: 300px;
+    max-width: 800px;
+    height: 200px;
+    background:mediumpurple;
+    background-position: center;
+  }
+
+
+/*section.hero { No sé qué es esto?
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+} */
+
+
+
+Redesfinales
+
+.redesfinales {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.redesfinales {
+    font-size: 30px;
+    transition: all ease 300ms;
+}
+
+.instagram{
+    color: rgb(248, 138, 193);
+}
+
+.tiktok{
+    color: rgb(248, 138, 193);
+}
+
+.youtube{
+    color: rgb(248, 138, 193);
+}
+
+.redesfinales a:hover{
+    transform: scale(1.4);
+}
